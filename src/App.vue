@@ -13,20 +13,6 @@
 </template>
 
 <script>
-function updateList() {
-	const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
-		return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top);
-	});
-
-	document.querySelectorAll(".selected-circle").forEach(c => c.classList.remove("selected-circle"));
-	
-	document.querySelectorAll(".nav-dot")[[...document.querySelectorAll('h1, h2')].indexOf(titles[0])].classList.add("selected-circle");
-}
-
-updateList();
-window.addEventListener('scroll', () => {
-    updateList();
-})
 
 import HeaderPart from "./components/Header.vue";
 import HeroPart from "./components/Hero.vue";
@@ -41,6 +27,21 @@ export default {
   },
   mounted() {
     document.body.classList.add("bg-body", "text-white", "font-poppins", "pb-12");
+    function updateList() {
+    const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
+      return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top);
+    });
+
+    document.querySelectorAll(".selected-circle").forEach(c => c.classList.remove("selected-circle"));
+    
+    document.querySelectorAll(".nav-dot")[[...document.querySelectorAll('h1, h2')].indexOf(titles[0])].classList.add("selected-circle");
+  }
+
+  updateList();
+  window.addEventListener('scroll', () => {
+      updateList();
+  })
   },
 };
+
 </script>

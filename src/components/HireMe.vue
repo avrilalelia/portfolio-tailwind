@@ -24,8 +24,8 @@
 
 					<div class="mt-12">
 						<!-- Contact info -->
-						<p class="text-secondary">555-555-1234</p>
-						<a href="mailto:email@mydomain.com" class="text-secondary underline mt-3 block">email@mydomain.com</a>
+						<p class="text-secondary">0857-3201-2292</p>
+						<a href="mailto:email@mydomain.com" class="text-secondary underline mt-3 block">avrilalelia01@gmail.com</a>
 
 						<!-- Socials -->
 						<div class="flex mt-20 space-x-6">
