@@ -6,7 +6,7 @@
     <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
      <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body"><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span></a>
      <a href="#work" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span></a>
-     <a href="#clients" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Client</span></a>
+     <a href="#clients" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Achievements</span></a>
      <a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span></a>
     </div>
    </nav>
@@ -21,7 +21,7 @@
            <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
        </svg>								
       </div>
-      <span>View my work.</span>
+      <a href="#work"><span>View my work.</span></a>
      </button>
     </div>
    </div>

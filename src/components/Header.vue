@@ -5,7 +5,7 @@
    <div class="hidden md:flex space-x-12 items-center">
     <a href="#" class="text-selected-text">Home</a>
     <a href="#work">My Work</a>
-    <a href="#clients">Licenses and Certifications</a>
+    <a href="#clients">Achievements</a>
     <a href="#hire"><button class="px-6 py-2 bg-theme font-bold">Hire Me</button></a>
    </div>
    <div class="md:hidden">

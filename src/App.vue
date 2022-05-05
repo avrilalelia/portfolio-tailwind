@@ -26,6 +26,7 @@ export default {
     HeaderPart, HeroPart, MyWorkPart, ClientsPart, HireMePart
   },
   mounted() {
+    
     document.body.classList.add("bg-body", "text-white", "font-poppins", "pb-12");
     function updateList() {
     const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {

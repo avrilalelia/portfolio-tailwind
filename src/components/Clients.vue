@@ -2,11 +2,33 @@
  <!-- Clients -->
 		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
 			<section class="w-full">
-				<h2 id="clients" class="secondary-title">Licenses and Certifications</h2>
-				<p class="section-paragraph">Here are licenses and certificates that I gained.</p>
+				<h2 id="clients" class="secondary-title">Achievements</h2>
+				<p class="section-paragraph">Here are awards, licenses and certificates that I gained.</p>
 
 				<!-- Clients -->
 				<div class="space-y-12 my-16">
+
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						<!-- Client logo -->
+						<div class="mb-6 lg:mb-0">
+							<img src="../assets/google.png" class="w-40" alt="walmart logo">
+						</div>
+
+						<!-- Client info -->
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold">Google Generation Scholar Asia Pacific 2021</h3>
+
+							<div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+								<div class="badge">Google</div>
+								<div class="badge">Scholarship</div>
+							</div>
+
+							<p class="text-secondary">Scholarship recipient awarded for commitment to diversity, equity and inclusion, demonstration of leadership, and academic performance.</p>
+						</div>
+
+					</div>
+
 					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 						
 						<!-- Client logo -->
@@ -34,6 +56,7 @@
 						</div>
 
 					</div>
+
 					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
 						
 						<!-- Client logo -->
